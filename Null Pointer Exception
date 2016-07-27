@@ -1,0 +1,57 @@
+// Memeber Method defined class
+
+package Session7;
+
+public class MemberFunc {
+	
+	
+	
+	public void MemberMethod() {
+		// TODO Auto-generated constructor stub
+		
+		
+		System.out.println( "Java Session 7");
+		
+	}		
+	
+}
+
+
+// Main Method class
+
+package Session7;
+
+public class NullExcepHandl {
+	
+	
+	public static void main(String args[]) {
+		
+		
+		MemberFunc mf = null;
+		
+		
+		try{
+		
+				mf.MemberMethod();
+		
+		
+		} catch(NullPointerException n) {
+			System.out.println("Null Pointer Error");
+		}
+		
+		
+		System.out.println("Main method ends");
+	}
+
+}
+
+/* Output
+
+Null Pointer Error
+Main method ends
+
+
+*/
+
+
+*/
